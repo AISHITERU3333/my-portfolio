@@ -11,10 +11,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/waveify-project/page": [
+    "/api/download/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/waveify-project/page.js"
+      "static/chunks/app/api/download/route.js"
     ]
   }
 }
